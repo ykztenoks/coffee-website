@@ -1,0 +1,64 @@
+* {
+    background-color: darkolivegreen;
+    /* border: 1px solid red */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* h1 {
+    font-size: xx-large;
+    color: white;
+} */
+
+
+ul > li {
+    color: chocolate;
+    margin: 20px
+}
+
+ol > li {
+    margin: 20px
+}
+
+.nav-title {
+    color: white
+}
+
+.nav-title:hover{
+    color: blue
+}
+
+img {
+    margin-right: 47px;
+    padding: 10px;
+    width: 30vw;
+    height: 30vh;
+    object-fit: cover;
+    border: 1px solid red;
+}
+
+button {
+    border: 1px solid  greenyellow;
+    border-radius: 32px;
+    padding: 50px
+}
+
+button:hover {
+    background-color: goldenrod;
+    transition: all 1s;
+}
+
+.main-content {
+    height: 200vh;
+}
+
+
+/* BONUS CSS PROPERTY, TODAYS GIFT */
+.hover-effect:hover {
+    scale: 125%;
+    transition: all ease-in-out 1s ;
+    
+}
+
+
